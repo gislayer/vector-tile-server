@@ -1,0 +1,169 @@
+.baslik1 {
+  color: #2185d0;
+  font-size: 14px;
+  padding: 10px;
+  background-color: #171717;
+  font-weight: normal;
+}
+
+.list1 {
+  padding-top: 6px !important;
+  background-color: #212121 !important;
+  padding-left: 18px !important;
+}
+
+.listItem {
+  color: #ccc !important;
+  font-weight: normal !important;
+  font-size: 12px !important;
+  cursor: pointer;
+  content: '';
+}
+
+.listItem:hover {
+  color: #2185d0 !important;
+}
+
+.unselect {
+  user-select: none;
+  /* standard syntax */
+  -webkit-user-select: none;
+  /* webkit (safari, chrome) browsers */
+  -moz-user-select: none;
+  /* mozilla browsers */
+  -khtml-user-select: none;
+  /* webkit (konqueror) browsers */
+  -ms-user-select: none;
+  /* IE10+ */
+}
+
+.fontColor1 {
+  color: #cccccc !important;
+}
+
+.mainHelpText {
+  text-align: center;
+  top: 50%;
+  position: absolute;
+  left: 50%;
+  margin-left: -230px;
+  color: #ccc;
+  font-size: 21px;
+}
+
+.spanFileName {
+  color: #fbbd08;
+  padding: 10px;
+  border-right: 1px solid #000000;
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.tabContent {
+  margin-bottom: 0px;
+  border: none;
+  height: calc(100% - 65px);
+  overflow-y: scroll;
+}
+
+.tabFooter {
+  position: absolute;
+  right: -5px;
+  bottom: 0;
+}
+
+.closeFile {
+  color: #ccc;
+  padding: 10px;
+}
+
+.closeFile:hover {
+  color: #2185d0;
+}
+
+.input1 {
+  background-color: #2d2d2d !important;
+  color: #ccc !important;
+}
+
+.search1 {
+  background-color: #757575 !important;
+  color: #fff !important;
+  width: 100% !important;
+}
+
+.maptest {
+  height: 400px;
+  width: 100%;
+  padding: 8px;
+  background-color: #353535;
+  border-radius: 5px;
+  border: 1px solid #4e4e4e;
+}
+
+input[type=range] {
+  box-sizing: border-box;
+  appearance: none;
+  width: 100%;
+  margin: 0;
+  padding: 0 2px;
+  /* Add some L/R padding to ensure box shadow of handle is shown */
+
+  overflow: hidden;
+  border: 0;
+  border-radius: 1px;
+  outline: none;
+  background: linear-gradient(#444, #444) no-repeat center;
+  /* Use a linear gradient to generate only the 2px height background */
+
+  background-size: 100% 2px;
+  pointer-events: none;
+}
+
+input[type=range]:active,
+input[type=range]:focus {
+  outline: none;
+}
+input[type=range]::-webkit-slider-thumb {
+  height: 16px;
+  width: 16px;
+  border-radius: 28px;
+  background-color: #2185d0;
+  position: relative;
+  margin: 5px 0;
+  cursor: pointer;
+  appearance: none;
+  pointer-events: all;
+  box-shadow: 0 1px 4px 0.5px rgba(0, 0, 0, 0.25);
+}
+
+input[type=range]::-webkit-slider-thumb:hover {
+  height: 16px;
+  width: 16px;
+  border:2px solid #fff;
+  background-color: #2794e6;
+}
+
+.multi-range {
+  position: relative;
+  height: 50px;
+  width: 350px;
+}
+.multi-range input[type=range] {
+  position: absolute;
+}
+.multi-range input[type=range]:nth-child(1)::-webkit-slider-thumb::before {
+  background-color: red;
+}
+.multi-range input[type=range]:nth-child(2) {
+  background: none;
+}
+.multi-range input[type=range]:nth-child(2)::-webkit-slider-thumb::before {
+  background-color: grey;
+}
+
+.styleLeft{
+  overflow-y: scroll;
+    overflow-x: hidden;
+    max-height: 400px;
+}
